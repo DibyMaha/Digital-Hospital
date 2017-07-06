@@ -1,0 +1,94 @@
+﻿<%@ Master Language="VB" CodeFile="Site.master.vb" Inherits="Masters_Site2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+   <table width="100%" cellpadding="0" cellspacing="0"><tr><td>
+   
+   
+   <table width="80%" align="center"  style="border:5px solid Black;" cellpadding="0" cellspacing="0"><tr><td>
+   
+   
+
+   <table width="100%" 
+           style="background-image: url('../../Masters/images/bg-background.jpg'); background-repeat: repeat">
+           
+           
+           <tr><td style="width:150px;" align="center">
+   
+       <img runat="server" src="~/Masters/images/logo.png" width="100" />
+   </td>
+   
+   <td style="text-align:left;">
+   
+    <h1>We Care Hospital</h1>
+   
+   </td>
+   
+   
+   
+   
+   
+   
+   </table>
+
+   
+   </td></tr>
+   
+   
+  
+   
+   <tr><td style="background:#303943;color:#fff;padding:15px 20px;font-size:20px;">
+   
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder_head" runat="server">
+       </asp:ContentPlaceHolder>
+   
+   
+   </td></tr>
+
+
+
+   <tr><td style="padding:25px 20px;">
+   
+   
+   
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder_body" runat="server">
+       </asp:ContentPlaceHolder>
+   
+   
+   </td></tr>
+
+
+
+   
+   
+   </table>
+   
+   
+   
+   
+   </td></tr></table>
+
+
+
+
+   </form>
+
+
+</body>
+</html>

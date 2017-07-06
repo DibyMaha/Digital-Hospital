@@ -1,0 +1,37 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Masters/Site.master" AutoEventWireup="false" CodeFile="View.master.vb" Inherits="Masters_View" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+
+</asp:Content>
+
+
+
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder_menu" Runat="Server">
+
+
+<li><a id="A1" href="~/Default.aspx" style="color:Red;" runat="server">Home</a></li>
+<li><a id="A2" href="~/secured/Patient/ListDoctor.aspx" style="color:Red;" runat="server">Find Doctor</a></li>
+<li><a id="A3" href="~/secured/Patient/Register.aspx" style="color:Red;" runat="server">Take an Appointment</a></li>
+
+
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_head" Runat="Server">
+
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder_head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder_body" Runat="Server">
+
+
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder_body" runat="server">
+    </asp:ContentPlaceHolder>
+   
+</asp:Content>
+

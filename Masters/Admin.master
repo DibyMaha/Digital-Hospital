@@ -1,0 +1,40 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Masters/Site.master" AutoEventWireup="false" CodeFile="Admin.master.vb" Inherits="Masters_Admin" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+
+</asp:Content>
+
+
+
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder_menu" Runat="Server">
+
+
+<li><a href="~/secured/Admin/" style="color:Red;" runat="server">Home</a></li>
+<li><a id="A1" href="~/secured/Admin/UpdateDoctorPage/UpdateQualification/UpdateQualification.aspx" style="color:Red;" runat="server">Qualification Master</a></li>
+<li><a id="A2" href="~/secured/Admin/UpdateDoctorPage/UpdateSpecialization/UpdateSpecialization.aspx" style="color:Red;" runat="server">Specialization Master</a></li>
+<li><a id="A3" href="~/secured/Admin/users/ManageUser.aspx" style="color:Red;" runat="server">Manage Users</a></li>
+<li><a id="A4" href="~/secured/Admin/UpdateDoctorAvailability/Default.aspx" style="color:Red;" runat="server">Doc Availability</a></li>
+<li><a id="A5" href="~/secured/Admin/DoctorProfile/DoctorProfile.aspx" style="color:Red;" runat="server">Doc Profile</a></li>
+
+
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_head" Runat="Server">
+
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder_head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder_body" Runat="Server">
+
+
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder_body" runat="server">
+    </asp:ContentPlaceHolder>
+   
+</asp:Content>
+

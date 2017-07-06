@@ -1,0 +1,36 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Masters/Site.master" AutoEventWireup="false" CodeFile="Uploader.master.vb" Inherits="Masters_Uploader" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+
+</asp:Content>
+
+
+
+
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder_menu" Runat="Server">
+
+
+<li><a id="A1" href="~/secured/Uploader/Default.aspx" style="color:Red;" runat="server">Upload Reports / Prescription</a></li>
+
+
+</asp:Content>
+
+
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_head" Runat="Server">
+
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder_head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder_body" Runat="Server">
+
+
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder_body" runat="server">
+    </asp:ContentPlaceHolder>
+   
+</asp:Content>
+
